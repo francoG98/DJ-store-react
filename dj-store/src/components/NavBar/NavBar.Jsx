@@ -1,9 +1,10 @@
+import PioneerLogo from "./assets/Pioneer-DJ_logo.png"
 import CartWidget from "../CartWidget/CartWidget"
 
 const Navbar = ( ) => {
     return (
         <nav>
-            <a href="../../../public/index.html"> <h1> <img src="../../Pioneer-DJ_logo.png" alt="Pioneer-DJ_logo" /></h1> </a>
+            <a href="../../../public/index.html"> <h1> {PioneerLogo} </h1> </a>
             <div>
                 <button>Consolas</button>
                 <button>Parlantes</button>
