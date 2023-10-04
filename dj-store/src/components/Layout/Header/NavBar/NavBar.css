@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+
+    .Logo{
+        width: 25vw;
+    }
+    .Buttons{
+        width: 45vw;
+        display: flex;
+        justify-content: space-between;
+        .Button{
+            background-color: black;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            transition: all 1.5s;
+                    &:hover{
+                        font-size: 2rem;
+                    }
+        }
+    }
+}
